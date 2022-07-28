@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;500;700&display=swap');
+
+* {
+    font-family: Ubuntu;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 350px;
+    width: 25%;
+    background-color: #161717;
+    padding: 30px 40px;
+}
+
+
+.sub-container h3 {
+    color: #ffffff;
+    align-self: flex-start;
+    margin-bottom: 25px;
+}
+
+.buttons {
+    margin-bottom: 25px;
+    gap: 10px;
+    display: flex;
+}
+
+.google-button {
+    background-color: rgba(0, 0, 202, 0.836);
+    border: none;
+    border-radius: 5px;
+    height: 50px;
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-items: left;
+    padding-left: 3px;
+    font-size: medium;
+}
+
+.google-button:hover {
+    opacity: 0.9;
+}
+
+.google-button picture {
+    display: flex;
+}
+
+.google-button img {
+    width: 40px;
+    justify-self: flex-start;
+    border-radius: 2px;
+    margin-left: 2px;
+}
+
+.google-button span {
+    padding-left: 10px;
+    color: #ffffff; 
+    font-weight: 700;
+}
+
+.twitter-button {
+    background-color:grey;
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.twitter-button:hover {
+    opacity: 0.9;
+}
+
+.twitter-button img {
+    width: 50px;
+    align-items: stretch;
+}
+
+.separator {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 100%;
+}
+
+.separator hr {
+    width: 45%;
+    height: 1px;
+    background-color:#ffffff;
+    border: none;
+}
+
+.separator span {
+    color: #ffffff;
+    font-weight: 300;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:stretch;
+}
+
+.form input {
+    background-color: #212121;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    margin-bottom: 40px;
+    margin-top: 10px;
+    outline: none;
+    font-size: large;
+    padding-left: 10px;
+    color: #ffffff;
+}
+
+.form input:hover {
+    border: 1px solid #8b888b;
+    background-color: #454045;
+}
+
+.form label {
+    color: #ffffff;
+    font-size: larger;
+}
+
+.name-username {
+    display: flex;
+    gap: 25px;
+}
+
+.name-username input{
+    width: 100%;
+}
+
+#email {
+    display: flex;
+    width:100%
+}
+
+#password {
+    display: flex;
+    width: 100%;
+}
+
+#password::placeholder {
+    color: rgb(56, 54, 54);
+    padding-left: 10px;
+}
+
+#checkbox {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+#checkbox input {
+    margin-top: 40px;
+}
+
+#checkbox span{
+    margin-left: 10px;
+}
+
+#submit {
+    color: #ffffff;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(185, 24, 132);
+    font-size: large;
+    font-weight: 600;
+}
+
+#submit:hover {
+    opacity: 0.8;
+}

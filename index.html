@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creación de estilos para formularios</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <picture></picture>
+        </div>
+        <div class="sub-container">
+            <h3>Crea tu cuenta</h3>
+            <div class="buttons">
+                <button class="google-button">
+                    <picture>
+                        <img src="img/logo.png" alt="logo google" id="logo-google">
+                    </picture>
+                    <span>Registrarse con Google</span>
+                </button>
+                <button class="twitter-button">
+                        <img src="/img/logo-twitter.png" alt="logo twitter">
+                </button>
+            </div>
+            <div class="separator">
+                <hr>
+                <span>O</span>
+                <hr>
+            </div>
+            <form class="form" action="" method="">
+                <div class="name-username">
+                    <label for="name">
+                        <span>Name</span>
+                        <input type="text" id="name" name="name">
+                    </label>
+                    <label for="username">
+                        <span>Username</span>
+                        <input type="text" id="username" name="username">
+                    </label>
+                </div>
+                <label for="email">
+                    <span>Email</span>
+                    <input type="text" id="email" name="email">
+                </label>
+                <label for="password">
+                    <span>Password</span>
+                    <input type="text" id="password" name="password" placeholder="6+ caracteres">
+                </label>
+                <label for="checkbox" id="checkbox">
+                    <input type="checkbox">
+                    <span>Acepto los términos y condiciones</span>
+                </label>
+                <button type="submit" id="submit">Crear Cuenta</button>
+            </form>
+        </div>
+    </div>    
+</body>
+</html>
